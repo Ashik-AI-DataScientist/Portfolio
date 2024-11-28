@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashik Muhammad Asharaf - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+<header>
+    <div class="container">
+        <h1>Ashik Muhammad Asharaf</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Accomplished Artificial Intelligence and Data Science professional with a Master’s degree from the University of Hull, graduated with Distinction. Expert in machine learning, python, R, SQL, data mining, neural networks, and AI model optimisation, hands-on proficiency with transformer models like BART and GPT and a strong understanding of data security and cloud integration. Proven track record in leading data-centric projects, evidenced by a successful research internship at RADD Solutions and building an AI-driven framework for email content extraction. Gained practical experience through hands-on job simulation projects with British Airways, Accenture, and BCG, applying data analytics, data extraction, visualisation, and AI solutions to real-world business challenges.
+
+Skilled in data engineering, dataset labelling, and statistical analysis with Python, Excel, SAS, SPS, and Stata. Demonstrated ability to convert complex theoretical concepts into impactful real-world applications. Actively seeking opportunities to leverage advanced AI, ML and data science skills in a dynamic environment that fosters innovation and problem-solving.
+
+        </p>
+    </section>
+
+<!-- Experience Section -->
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="experience-list">
+        <div class="experience-item" onclick="openModal('experience-modal')">
+            <h3>Research Internship at RADD Solutions</h3>
+            <p>Click to view details</p>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Modal -->
+<div id="experience-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience-modal')">&times;</span>
+        <h3>Research Internship at RADD Solutions</h3>
+        <ul>
+            <li>Developed an AI-powered framework for summarizing and extracting email content, leveraging supervised and unsupervised machine learning techniques.</li>
+            <li>Designed and fine-tuned transformer models such as T5 and BART, achieving a 35% improvement in data processing efficiency.</li>
+            <li>Engineered pipelines using Python, PySpark, and SQL to automate data processing tasks and maintain GDPR compliance.</li>
+            <li>Benchmarked model performance with precision metrics, achieving a ROUGE score of 46.3 for summarization models.</li>
+            <li>Visualized insights and performance metrics using Power BI and Tableau, presenting results to stakeholders.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Education Section -->
+<section id="education">
+    <h2>Education</h2>
+    <div class="education-list">
+        <div class="education-item" onclick="openModal('msc-modal')">
+            <h3>MSc in Artificial Intelligence and Data Science</h3>
+            <p>University of Hull - Distinction</p>
+        </div>
+        <div class="education-item" onclick="openModal('bsc-modal')">
+            <h3>BSc in Physics</h3>
+            <p>Pondicherry University - First Class</p>
+        </div>
+    </div>
+</section>
+
+<!-- MSc Modal -->
+<div id="msc-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('msc-modal')">&times;</span>
+        <h3>MSc in Artificial Intelligence and Data Science</h3>
+        <ul>
+            <li>Graduated with Distinction from the University of Hull.</li>
+            <li>Specialized in Machine Learning, Data Analytics, Natural Language Processing (NLP), and Data Visualization.</li>
+            <li>Completed a capstone project focused on AI-driven email content summarization, achieving a 35% improvement in summarization efficiency.</li>
+            <li>Proficient in advanced tools and platforms like TensorFlow, PyTorch, Tableau, Power BI, and cloud environments (AWS, Microsoft Azure).</li>
+            <li>Developed skills in statistical data analysis, optimization techniques, and neural networks.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- BSc Modal -->
+<div id="bsc-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('bsc-modal')">&times;</span>
+        <h3>BSc in Physics</h3>
+        <ul>
+            <li>Graduated with First Class from Pondicherry University.</li>
+            <li>Extensive experience in experimental physics, including laboratory-based research and practical experimentation.</li>
+            <li>Hands-on knowledge in **Computational Physics**, simulating complex systems using numerical methods and Python programming.</li>
+            <li>Deep understanding of **Laser Theory** and applications in spectroscopy and optics.</li>
+            <li>Strong expertise in advanced mathematics, including calculus, linear algebra, and statistical methods applied to physics research.</li>
+            <li>Collaborated on academic projects focused on energy systems and quantum mechanics, presenting findings in a university seminar series.</li>
+        </ul>
+    </div>
+</div>
+
+
+   <!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+        <div class="project" onclick="openModal('modal1')">
+            <h3>Email Content Extraction</h3>
+            <p>
+                Developed and fine-tuned machine learning models to summarize and extract actionable insights from email content.
+            </p>
+            <p><strong>Key Tools:</strong> Python, TensorFlow, T5, BART, Tableau</p>
+            <p><a href="#" onclick="openModal('modal1')">Read more</a></p>
+        </div>
+        <div class="project" onclick="openModal('modal2')">
+            <h3>Crime Hotspot Prediction</h3>
+            <p>
+                Predicted crime hotspots using geospatial data and machine learning algorithms, leading to improved resource allocation.
+            </p>
+            <p><strong>Key Tools:</strong> Python, PostGIS, Tableau, XGBoost</p>
+            <p><a href="#" onclick="openModal('modal2')">Read more</a></p>
+        </div>
+        <div class="project" onclick="openModal('modal3')">
+            <h3>British Airways Customer Insights</h3>
+            <p>
+                Analyzed customer reviews to uncover sentiment insights, improving customer retention by 15%.
+            </p>
+            <p><strong>Key Tools:</strong> Python, Power BI, SQL, Matplotlib</p>
+            <p><a href="#" onclick="openModal('modal3')">Read more</a></p>
+        </div>
+        <div class="project" onclick="openModal('modal4')">
+            <h3>Facial Emotion Recognition</h3>
+            <p>
+                Built deep learning models to recognize facial emotions, leveraging CNNs and LSTMs for improved accuracy.
+            </p>
+            <p><strong>Key Tools:</strong> Python, Keras, TensorFlow, OpenCV</p>
+            <p><a href="#" onclick="openModal('modal4')">Read more</a></p>
+        </div>
+        <div class="project" onclick="openModal('modal5')">
+            <h3>Breast Cancer Detection</h3>
+            <p>
+                Designed and implemented an image classification model to detect breast cancer with high accuracy.
+            </p>
+            <p><strong>Key Tools:</strong> Python, Keras, TensorFlow, NumPy</p>
+            <p><a href="#" onclick="openModal('modal5')">Read more</a></p>
+        </div>
+        <div class="project" onclick="openModal('modal6')">
+            <h3>Financial Report Chatbot</h3>
+            <p>
+                Built an AI-powered chatbot to extract insights from financial reports, enabling seamless access to key metrics.
+            </p>
+            <p><strong>Key Tools:</strong> Python, NLTK, GPT, Flask</p>
+            <p><a href="#" onclick="openModal('modal6')">Read more</a></p>
+        </div>
+        <div class="project" onclick="openModal('modal7')">
+            <h3>IBM HR Data Analytics</h3>
+            <p>
+                Conducted a cost-benefit analysis using IBM HR Analytics data, visualized attrition risks, and improved reporting efficiency.
+            </p>
+            <p><strong>Key Tools:</strong> Power BI, Python, SQL, Pandas</p>
+            <p><a href="#" onclick="openModal('modal7')">Read more</a></p>
+        </div>
+    </div>
+</section>
+
+
+ <!-- Modal 1 -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h3>Email Content Extraction</h3>
+        <p>
+            <strong>Aim:</strong> To automate the summarization and extraction of key insights from unstructured email datasets to enhance processing efficiency.
+        </p>
+        <p>
+            <strong>Methodology:</strong> Leveraged transformer models such as T5, BART, and LongT5 for supervised learning and fine-tuned them using Python and TensorFlow. 
+            Built an unsupervised learning model for handling unlabeled email datasets. Employed data visualization tools like Tableau to present outcomes effectively.
+        </p>
+        <p>
+            <strong>Outcomes:</strong> Improved data processing efficiency by 35% and reduced computational resource requirements by 40%. Achieved ROUGE scores of up to 46.3, 
+            demonstrating high summarization quality.
+        </p>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h3>Crime Hotspot Prediction</h3>
+        <p>
+            <strong>Aim:</strong> To predict crime hotspots using geospatial data, enabling better allocation of resources and crime prevention strategies.
+        </p>
+        <p>
+            <strong>Methodology:</strong> Utilized geospatial data and machine learning algorithms like XGBoost for hotspot prediction. 
+            Processed data using PostGIS for spatial analysis and visualized insights through Tableau dashboards.
+        </p>
+        <p>
+            <strong>Outcomes:</strong> Enhanced prediction accuracy by 20%, leading to improved resource allocation. Created visualizations 
+            that allowed stakeholders to identify and address high-risk areas effectively.
+        </p>
+    </div>
+</div>
+
+<!-- Modal 3 -->
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal3')">&times;</span>
+        <h3>British Airways Customer Insights</h3>
+        <p>
+            <strong>Aim:</strong> To derive actionable insights from customer reviews and improve service quality and customer retention.
+        </p>
+        <p>
+            <strong>Methodology:</strong> Scraped and analyzed over 1,000 customer reviews using Python for sentiment analysis. Developed predictive models to assess 
+            customer behavior and utilized Power BI to build interactive dashboards for productivity tracking.
+        </p>
+        <p>
+            <strong>Outcomes:</strong> Improved customer retention by 15%. Delivered insights that enhanced customer satisfaction and streamlined decision-making processes 
+            through comprehensive data visualization.
+        </p>
+    </div>
+</div>
+
+<!-- Modal 4 -->
+<div id="modal4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal4')">&times;</span>
+        <h3>Facial Emotion Recognition</h3>
+        <p>
+            <strong>Aim:</strong> To design a deep learning model capable of classifying emotions from facial images for applications in mental health and user behavior analysis.
+        </p>
+        <p>
+            <strong>Methodology:</strong> Built a hybrid CNN-LSTM model using Python, TensorFlow, and Keras to extract temporal and spatial features from image datasets. 
+            Enhanced the dataset with OpenCV for pre-processing and augmentation.
+        </p>
+        <p>
+            <strong>Outcomes:</strong> Achieved an accuracy of 85%, surpassing benchmarks in facial emotion classification. Delivered robust predictions suitable for 
+            real-world applications in mental health and human-computer interaction.
+        </p>
+    </div>
+</div>
+
+<!-- Modal 5 -->
+<div id="modal5" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal5')">&times;</span>
+        <h3>Breast Cancer Detection</h3>
+        <p>
+            <strong>Aim:</strong> To develop an image classification model for early detection of breast cancer from histopathological images.
+        </p>
+        <p>
+            <strong>Methodology:</strong> Utilized convolutional neural networks (CNNs) implemented in TensorFlow and Keras for image classification. 
+            Employed data augmentation techniques to improve model generalization. Preprocessed images with OpenCV and NumPy.
+        </p>
+        <p>
+            <strong>Outcomes:</strong> Achieved 92% accuracy in classification, supporting early diagnosis efforts. Reduced false negatives by 18%, providing reliable 
+            outcomes for clinical decision-making.
+        </p>
+    </div>
+</div>
+
+<!-- Modal 6 -->
+<div id="modal6" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal6')">&times;</span>
+        <h3>Financial Report Chatbot</h3>
+        <p>
+            <strong>Aim:</strong> To develop an AI chatbot capable of extracting and summarizing key insights from financial reports.
+        </p>
+        <p>
+            <strong>Methodology:</strong> Built a chatbot using Python and Flask, integrating GPT models for natural language understanding. 
+            Extracted data from 10-K and 10-Q reports using NLTK for parsing and analysis.
+        </p>
+        <p>
+            <strong>Outcomes:</strong> Streamlined financial data retrieval for decision-makers, reducing search time by 50%. Delivered concise insights, 
+            improving accessibility to critical financial metrics.
+        </p>
+    </div>
+</div>
+
+<!-- Modal 7 -->
+<div id="modal7" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal7')">&times;</span>
+        <h3>IBM HR Data Analytics</h3>
+        <p>
+            <strong>Aim:</strong> To analyze workforce data to predict employee attrition and optimize HR operations.
+        </p>
+        <p>
+            <strong>Methodology:</strong> Conducted data cleaning and preprocessing using Python and Pandas. Built predictive models with Scikit-Learn 
+            and visualized attrition risks using Power BI dashboards.
+        </p>
+        <p>
+            <strong>Outcomes:</strong> Reduced employee turnover by 12% by identifying high-risk attrition groups. Improved report generation efficiency by 30%, 
+            aiding HR in strategic planning.
+        </p>
+    </div>
+</div>
+
+
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+        <div class="skill-item" onclick="openModal('modal-programming')">
+            <h3>Programming and Tools</h3>
+            <p>Click to view details</p>
+        </div>
+        <div class="skill-item" onclick="openModal('modal-analytics')">
+            <h3>Data Analytics and Visualization</h3>
+            <p>Click to view details</p>
+        </div>
+        <div class="skill-item" onclick="openModal('modal-ml')">
+            <h3>Machine Learning and AI</h3>
+            <p>Click to view details</p>
+        </div>
+        <div class="skill-item" onclick="openModal('modal-engineering')">
+            <h3>Data Engineering</h3>
+            <p>Click to view details</p>
+        </div>
+        <div class="skill-item" onclick="openModal('modal-cloud')">
+            <h3>Cloud Platforms</h3>
+            <p>Click to view details</p>
+        </div>
+        <div class="skill-item" onclick="openModal('modal-softskills')">
+            <h3>Soft Skills</h3>
+            <p>Click to view details</p>
+        </div>
+    </div>
+</section>
+
+<!-- Modals for Skills -->
+<!-- Modal for Programming -->
+<div id="modal-programming" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-programming')">&times;</span>
+        <h3>Programming and Tools</h3>
+        <ul>
+            <li>Python</li>
+            <li>R</li>
+            <li>SQL</li>
+            <li>PySpark</li>
+            <li>TensorFlow</li>
+            <li>PyTorch</li>
+            <li>Keras</li>
+            <li>Scikit-Learn</li>
+            <li>XGBoost</li>
+            <li>LightGBM</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal for Data Analytics -->
+<div id="modal-analytics" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-analytics')">&times;</span>
+        <h3>Data Analytics and Visualization</h3>
+        <ul>
+            <li>Power BI</li>
+            <li>Tableau</li>
+            <li>Excel (Advanced)</li>
+            <li>Matplotlib</li>
+            <li>Seaborn</li>
+            <li>Plotly</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal for Machine Learning -->
+<div id="modal-ml" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-ml')">&times;</span>
+        <h3>Machine Learning and AI</h3>
+        <ul>
+            <li>Supervised and Unsupervised Learning</li>
+            <li>Natural Language Processing (NLP)</li>
+            <li>Transformer Models (BERT, GPT, T5)</li>
+            <li>Deep Learning (CNN, RNN, LSTM)</li>
+            <li>Predictive Analytics</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal for Data Engineering -->
+<div id="modal-engineering" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-engineering')">&times;</span>
+        <h3>Data Engineering</h3>
+        <ul>
+            <li>ETL Processes</li>
+            <li>Data Quality Management</li>
+            <li>Data Pipelines</li>
+            <li>Data Warehousing</li>
+            <li>APIs</li>
+            <li>NoSQL Databases</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal for Cloud Platforms -->
+<div id="modal-cloud" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-cloud')">&times;</span>
+        <h3>Cloud Platforms</h3>
+        <ul>
+            <li>Google Cloud Platform (BigQuery)</li>
+            <li>Microsoft Azure</li>
+            <li>AWS (S3, EC2)</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal for Soft Skills -->
+<div id="modal-softskills" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-softskills')">&times;</span>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Stakeholder Collaboration</li>
+            <li>Documentation</li>
+            <li>Teamwork</li>
+            <li>Leadership</li>
+            <li>Process Improvement</li>
+            <li>Problem-Solving</li>
+            <li>Adaptability</li>
+            <li>Resilience</li>
+            <li>Attention to Detail</li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            Feel free to reach out to discuss opportunities or collaborations.
+        </p>
+        <p>Email: <a href="mailto:ashikmasharaf@outlook.com">ashikmasharaf@outlook.com</a></p>
+        <p>Phone: +44 7909 258267</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ashik-muhammad-asharaf-ai-data-scientist/" target="_blank">linkedin.com/in/ashik-muhammad-asharaf</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ashik Muhammad Asharaf. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+<script src="script.js"></script>
