@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashik M Asharaf | Data Analyst</title>
+    <meta name="description" content="Portfolio of Ashik M Asharaf, Data Analyst with an MSc in AI & Data Science — specializing in Python, SQL, Power BI, and Predictive Analytics.">
+    <meta name="author" content="Ashik M Asharaf">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">AA<span>.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <p class="hero-eyebrow reveal">Data Analyst</p>
+                <h1 class="hero-title reveal">Ashik M<br>Asharaf</h1>
+                <p class="hero-subtitle reveal"><span id="typed-subtitle"></span></p>
+                <p class="hero-desc reveal">Data Analyst with an MSc in AI &amp; Data Science (Distinction) — turning raw datasets into dashboards, forecasts, and decisions that hold up in front of leadership.</p>
+                <div class="hero-actions reveal">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="Ashik_M_Asharaf_Resume.pdf" class="btn btn-outline" download>Download CV</a>
+                </div>
+                <div class="hero-contact reveal">
+                    <a href="mailto:ashikmasharaf@outlook.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+919747083777" title="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="https://www.linkedin.com/in/ashik-muhammad-asharaf-ai-data-scientist/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ashik-ai-datascientist" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="scroll-indicator"><span></span></div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="content-section">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>I'm a Data Analyst with an MSc in Artificial Intelligence &amp; Data Science from the University of Hull (Distinction), backed by a First-Class degree in Physics. My work is focused on one thing: turning raw, messy data into numbers that leadership can act on — whether that's a churn dashboard, an inventory report, or a revenue forecast.</p>
+                    <p>Across roles in operations, freelance consulting, and applied research, I've used Python, SQL, and Power BI to build reporting pipelines, predictive models, and dashboards that replace guesswork with evidence. At Ye Olde No 3, that meant restructuring inventory and sales data to cut wastage by up to 20%. As a freelance analyst with Brand Nerd, it meant automating multi-channel reporting and building retention dashboards that lifted engagement by 20% in 90 days.</p>
+                    <p>On the technical side, I've fine-tuned transformer models (T5, BART) for NLP summarisation, achieving a ROUGE score of 46.3, and built predictive models spanning churn, geospatial demand, and customer segmentation — always translated back into a business-readable answer, not just a metric.</p>
+                    <p>I'm currently looking for a Data Analyst role where I can keep doing exactly that: taking ownership of a dataset end-to-end, from cleaning to dashboard to recommendation.</p>
+                </div>
+                <div class="about-stats reveal">
+                    <p class="about-stats-label">Data Analyst</p>
+                    <div class="stats-mini-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">13+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">30K+</span>
+                            <span class="stat-label">Records Analysed</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Predictive Models</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Interactive Dashboards</span>
+                        </div>
+                    </div>
+                    <p class="about-stats-label" style="margin-top: 1.8rem;">Core Expertise</p>
+                    <div class="tag-list center-tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Power BI</span>
+                        <span>Machine Learning</span>
+                        <span>Data Analytics</span>
+                        <span>Business Intelligence</span>
+                        <span>Predictive Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="content-section">
+            <h2 class="section-title reveal">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal" onclick="openModal('pub-modal')">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">03/2025 – 03/2026</div>
+                    <div class="timeline-content">
+                        <h3>Operations Manager</h3>
+                        <p class="card-subtitle">Ye Olde No 3 · Manchester, UK</p>
+                        <p>Data-backed inventory, scheduling, and reporting across a 12-member hospitality team.</p>
+                        <span class="click-hint">Click for details <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" onclick="openModal('brandnerd-modal')">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">02/2025 – 03/2026</div>
+                    <div class="timeline-content">
+                        <h3>Freelance Data Analyst (Project-Based)</h3>
+                        <p class="card-subtitle">Brand Nerd · Remote, Kochi, Kerala</p>
+                        <p>Social analytics, automation pipelines, and retention dashboards for a growth-stage client.</p>
+                        <span class="click-hint">Click for details <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" onclick="openModal('trainer-modal')">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">05/2024 – 03/2025</div>
+                    <div class="timeline-content">
+                        <h3>Corporate Trainer</h3>
+                        <p class="card-subtitle">CFG · Manchester, UK</p>
+                        <p>KPI management and data-backed sales training programmes.</p>
+                        <span class="click-hint">Click for details <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" onclick="openModal('research-modal')">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">09/2023 – 04/2024</div>
+                    <div class="timeline-content">
+                        <h3>Machine Learning Research Project Intern</h3>
+                        <p class="card-subtitle">RADD Solutions · Hull, UK</p>
+                        <p>AI model fine-tuning (T5/BART) and NLP research on email summarisation.</p>
+                        <span class="click-hint">Click for details <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="content-section">
+            <h2 class="section-title reveal">Education</h2>
+            <div class="card-container">
+                <div class="card reveal" onclick="openModal('msc-modal')">
+                    <h3>MSc Artificial Intelligence &amp; Data Science</h3>
+                    <p class="card-subtitle">University of Hull — Distinction</p>
+                    <p class="courses">Machine Learning · NLP · Data Visualization · Capstone: AI email summarisation</p>
+                    <span class="click-hint">Click for details <i class="fas fa-arrow-right"></i></span>
+                </div>
+                <div class="card reveal" onclick="openModal('bsc-modal')">
+                    <h3>BSc in Physics</h3>
+                    <p class="card-subtitle">Pondicherry University — First Class</p>
+                    <p class="courses">Computational Physics · Laser Theory · Advanced Mathematics</p>
+                    <span class="click-hint">Click for details <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="content-section">
+            <h2 class="section-title reveal">Projects</h2>
+            <p class="section-subtitle reveal">13 end-to-end data science &amp; ML projects — from churn economics to real-time NLP.</p>
+            <div class="project-grid">
+
+                <div class="project-card reveal featured" onclick="openModal('modal-churn')" data-icon="fa-chart-line">
+                    <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="project-body">
+                        <span class="project-tag">Featured</span>
+                        <h3>Customer Churn Prediction &amp; Revenue Recovery Engine</h3>
+                        <p>An end-to-end predictive analytics solution integrating machine learning, customer segmentation, survival analysis, and executive dashboards to forecast customer churn, estimate revenue at risk, and optimise retention strategies. Bridges technical modelling with financial decision-making by converting predictions into measurable business impact and ROI.</p>
+                        <p class="project-tools"><strong>Tech Stack:</strong> Python, Pandas, NumPy, Scikit-learn, Lifelines, SQL, Power BI, Matplotlib, Plotly</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal featured" onclick="openModal('modal-swiggy')" data-icon="fa-utensils">
+                    <div class="project-icon"><i class="fas fa-utensils"></i></div>
+                    <div class="project-body">
+                        <span class="project-tag">Featured</span>
+                        <h3>Swiggy Hyperlocal Success Predictor</h3>
+                        <p>A geospatial and machine learning analytics platform that evaluates restaurant performance, identifies high-potential market opportunities, and quantifies business success drivers using clustering, NLP, regression modelling, and location intelligence. Provides strategic recommendations for expansion, pricing, and customer acquisition.</p>
+                        <p class="project-tools"><strong>Tech Stack:</strong> Python, Pandas, Scikit-learn, TF-IDF, K-Means, Regression, Plotly, Power BI, Geospatial Analytics</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal1')" data-icon="fa-envelope-open-text">
+                    <div class="project-icon"><i class="fas fa-envelope-open-text"></i></div>
+                    <div class="project-body">
+                        <h3>Email Content Extraction</h3>
+                        <p>Transformer-based summarisation of unstructured email datasets.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, TensorFlow, T5, BART, Tableau</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal2')" data-icon="fa-map-marked-alt">
+                    <div class="project-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <div class="project-body">
+                        <h3>Crime Hotspot Prediction</h3>
+                        <p>Geospatial ML for predictive resource allocation.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, PostGIS, Tableau, XGBoost</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal3')" data-icon="fa-plane">
+                    <div class="project-icon"><i class="fas fa-plane"></i></div>
+                    <div class="project-body">
+                        <h3>British Airways Customer Insights</h3>
+                        <p>Sentiment analysis across 1,000+ customer reviews.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, Power BI, SQL, Matplotlib</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal4')" data-icon="fa-face-smile">
+                    <div class="project-icon"><i class="fas fa-face-smile"></i></div>
+                    <div class="project-body">
+                        <h3>Facial Emotion Recognition</h3>
+                        <p>CNN-LSTM hybrid model for real-time emotion classification.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, Keras, TensorFlow, OpenCV</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal5')" data-icon="fa-ribbon">
+                    <div class="project-icon"><i class="fas fa-ribbon"></i></div>
+                    <div class="project-body">
+                        <h3>Breast Cancer Detection</h3>
+                        <p>CNN image classification for early diagnosis support.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, Keras, TensorFlow, NumPy</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal6')" data-icon="fa-comments-dollar">
+                    <div class="project-icon"><i class="fas fa-comments-dollar"></i></div>
+                    <div class="project-body">
+                        <h3>Financial Report Chatbot</h3>
+                        <p>GPT-powered chatbot for querying 10-K/10-Q reports.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, NLTK, GPT, Flask</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal7')" data-icon="fa-users">
+                    <div class="project-icon"><i class="fas fa-users"></i></div>
+                    <div class="project-body">
+                        <h3>IBM HR Data Analytics</h3>
+                        <p>Attrition risk visualisation and cost-benefit analysis.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Power BI, Python, SQL, Pandas</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal8')" data-icon="fa-city">
+                    <div class="project-icon"><i class="fas fa-city"></i></div>
+                    <div class="project-body">
+                        <h3>Census Data Analysis</h3>
+                        <p>Insights for urban development and budget allocation.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, Pandas, Matplotlib, Seaborn</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal9')" data-icon="fa-car-burst">
+                    <div class="project-icon"><i class="fas fa-car-burst"></i></div>
+                    <div class="project-body">
+                        <h3>Accident Data Analysis</h3>
+                        <p>Predictive modelling and clustering to reduce severity.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, Scikit-Learn, Tableau, K-Means</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal10')" data-icon="fa-wind">
+                    <div class="project-icon"><i class="fas fa-wind"></i></div>
+                    <div class="project-body">
+                        <h3>Atmospheric Turbulence Models</h3>
+                        <p>Literature review of predictive models for aircraft safety.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, ML, Statistical Analysis</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal11')" data-icon="fa-shield-halved">
+                    <div class="project-icon"><i class="fas fa-shield-halved"></i></div>
+                    <div class="project-body">
+                        <h3>Real-Time Hate Speech Detection</h3>
+                        <p>Twitter API + Apache Flink pipeline for live moderation.</p>
+                        <p class="project-tools"><strong>Tools:</strong> Python, Apache Flink, Twitter API, ML</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="content-section">
+            <h2 class="section-title reveal">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal" onclick="openModal('modal-programming')">
+                    <i class="fas fa-code"></i>
+                    <h4>Programming &amp; Tools</h4>
+                    <p class="click-hint">View details</p>
+                </div>
+                <div class="skill-category reveal" onclick="openModal('modal-analytics')">
+                    <i class="fas fa-chart-pie"></i>
+                    <h4>Data Analytics &amp; Visualization</h4>
+                    <p class="click-hint">View details</p>
+                </div>
+                <div class="skill-category reveal" onclick="openModal('modal-ml')">
+                    <i class="fas fa-brain"></i>
+                    <h4>Machine Learning &amp; AI</h4>
+                    <p class="click-hint">View details</p>
+                </div>
+                <div class="skill-category reveal" onclick="openModal('modal-engineering')">
+                    <i class="fas fa-server"></i>
+                    <h4>Data Engineering</h4>
+                    <p class="click-hint">View details</p>
+                </div>
+                <div class="skill-category reveal" onclick="openModal('modal-cloud')">
+                    <i class="fas fa-cloud"></i>
+                    <h4>Cloud Platforms</h4>
+                    <p class="click-hint">View details</p>
+                </div>
+                <div class="skill-category reveal" onclick="openModal('modal-softskills')">
+                    <i class="fas fa-handshake"></i>
+                    <h4>Soft Skills</h4>
+                    <p class="click-hint">View details</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="content-section">
+            <h2 class="section-title reveal">Certifications &amp; Licenses</h2>
+            <div class="card-container">
+                <div class="card cert-card reveal" onclick="openModal('cert1-modal')">
+                    <i class="fas fa-certificate"></i>
+                    <h3>IBM Data Engineering Professional Certificate</h3>
+                    <span class="click-hint">View details <i class="fas fa-arrow-right"></i></span>
+                </div>
+                <div class="card cert-card reveal" onclick="openModal('cert2-modal')">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Google Cloud Platform — Big Data &amp; ML</h3>
+                    <span class="click-hint">View details <i class="fas fa-arrow-right"></i></span>
+                </div>
+                <div class="card cert-card reveal" onclick="openModal('cert3-modal')">
+                    <i class="fas fa-certificate"></i>
+                    <h3>GDPR Compliance Training</h3>
+                    <span class="click-hint">View details <i class="fas fa-arrow-right"></i></span>
+                </div>
+                <div class="card cert-card reveal" onclick="openModal('cert4-modal')">
+                    <i class="fas fa-certificate"></i>
+                    <h3>British Airways Data Science Simulation</h3>
+                    <span class="click-hint">View details <i class="fas fa-arrow-right"></i></span>
+                </div>
+                <div class="card cert-card reveal" onclick="openModal('cert5-modal')">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Accenture Data Analytics &amp; Visualization Simulation</h3>
+                    <span class="click-hint">View details <i class="fas fa-arrow-right"></i></span>
+                </div>
+                <div class="card cert-card reveal" onclick="openModal('cert6-modal')">
+                    <i class="fas fa-certificate"></i>
+                    <h3>IELTS Academic — Band 7</h3>
+                    <span class="click-hint">View details <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="content-section">
+            <h2 class="section-title reveal">Let's Talk</h2>
+            <div class="contact-card reveal">
+                <p>Feel free to reach out to discuss opportunities, collaborations, or for references.</p>
+                <div class="contact-links">
+                    <a href="mailto:ashikmasharaf@outlook.com"><i class="fas fa-envelope"></i> ashikmasharaf@outlook.com</a>
+                    <a href="tel:+919747083777"><i class="fas fa-phone"></i> +91 9747083777</a>
+                    <a href="https://www.linkedin.com/in/ashik-muhammad-asharaf-ai-data-scientist/" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/ashik-muhammad-asharaf</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Ashik M Asharaf. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ==================== MODALS ==================== -->
+
+    <!-- Experience Modals -->
+    <div id="brandnerd-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('brandnerd-modal')">&times;</span>
+            <h2>Freelance Data Analyst (Project-Based) | Brand Nerd</h2>
+            <p class="modal-meta">02/2025 – 03/2026 | Remote, Kochi, Kerala</p>
+            <ul>
+                <li><strong>Social Media Analytics:</strong> Analysed IG/TikTok/LinkedIn, identified content strategies boosting reach by 20% in 90 days.</li>
+                <li><strong>Automation:</strong> Built a Python/SQL pipeline to consolidate multi-channel data, reducing weekly reporting by 15 hours.</li>
+                <li><strong>Retention Strategy:</strong> Developed a loyalty dashboard to track engagement and identify at-risk users for client retention.</li>
+                <li><strong>A/B Testing:</strong> Executed promotional campaign tests to optimise pricing and promotions strategies, protecting client margins.</li>
+                <li>Built Power BI dashboards to track engagement and performance metrics.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="pub-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('pub-modal')">&times;</span>
+            <h2>Operations Manager | Ye Olde No 3</h2>
+            <p class="modal-meta">03/2025 – 03/2026 | Manchester, UK</p>
+            <ul>
+                <li>Managed operations across inventory, bookings, and a 12-member team in a high-volume hospitality industry.</li>
+                <li>Analysed sales and inventory data in Excel, reducing wastage by ~15–20% and improving stock planning accuracy.</li>
+                <li>Prepared data-backed reports and proposals supporting business expansion and investor discussions.</li>
+                <li>Maintained and structured operational data (rosters, bookings, revenue), improving scheduling and resource utilisation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="trainer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('trainer-modal')">&times;</span>
+            <h2>Corporate Trainer | CFG</h2>
+            <p class="modal-meta">05/2024 – 03/2025 | Manchester, UK</p>
+            <ul>
+                <li><strong>Team Building:</strong> Recruited and trained a high-performing sales team over 6 months; developed a data-backed sales pitch that increased lead conversion rates for British Gas.</li>
+                <li><strong>KPI Management:</strong> Analysed team performance metrics to identify skill gaps, delivering targeted training that improved overall team efficiency.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="research-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('research-modal')">&times;</span>
+            <h2>Machine Learning Research Project Intern | RADD Solutions</h2>
+            <p class="modal-meta">09/2023 – 04/2024 | Hull, UK</p>
+            <ul>
+                <li><strong>Optimized AI Models &amp; Efficiency Improvement:</strong> Developed and fine-tuned email summarisation models (T5, BART, LongT5), achieving ROUGE scores up to 46.3. Boosted data processing efficiency by 35% and reduced computational requirements by 40%.</li>
+                <li><strong>Data Analysis &amp; Visualisation:</strong> Analysed 2,000+ emails, created Power BI visualisations, enhancing stakeholder clarity.</li>
+                <li><strong>Dataset Enhancement:</strong> Summarised 1,000 emails to create a high-quality dataset, increasing model accuracy by 40%.</li>
+                <li><strong>Stakeholder Communication:</strong> Presented findings driving strategic decisions within tight deadlines.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Education Modals -->
+    <div id="msc-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('msc-modal')">&times;</span>
+            <h2>MSc in Artificial Intelligence and Data Science</h2>
+            <ul>
+                <li>Graduated with Distinction from the University of Hull.</li>
+                <li>Specialized in Machine Learning, Data Analytics, Natural Language Processing (NLP), and Data Visualization.</li>
+                <li>Completed a capstone project focused on AI-driven email content summarization, achieving a 35% improvement in summarization efficiency.</li>
+                <li>Proficient in TensorFlow, PyTorch, Tableau, Power BI, and cloud environments (AWS, Microsoft Azure).</li>
+                <li>Developed skills in statistical data analysis, optimization techniques, and neural networks.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="bsc-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('bsc-modal')">&times;</span>
+            <h2>BSc in Physics</h2>
+            <ul>
+                <li>Graduated with First Class from Pondicherry University.</li>
+                <li>Extensive experience in experimental physics, including laboratory-based research and practical experimentation.</li>
+                <li>Hands-on knowledge in Computational Physics, simulating complex systems using numerical methods and Python programming.</li>
+                <li>Deep understanding of Laser Theory and applications in spectroscopy and optics.</li>
+                <li>Strong expertise in advanced mathematics, including calculus, linear algebra, and statistical methods applied to physics research.</li>
+                <li>Collaborated on academic projects focused on energy systems and quantum mechanics, presenting findings in a university seminar series.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Featured Project Modals -->
+    <div id="modal-churn" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal-churn')">&times;</span>
+            <h2>Customer Churn Prediction &amp; Revenue Recovery Engine</h2>
+            <p class="modal-meta">IBM Telco Dataset · 7,043 Customers</p>
+            <p>Most churn models are built to impress data scientists. This one was built to sit in front of a CFO — going beyond accuracy to answer who is about to leave, when, and what it costs to keep them.</p>
+            <p><strong>What's inside:</strong></p>
+            <ul>
+                <li><strong>Exploratory Analysis:</strong> Churn rate, revenue at risk, and loyalty curves by contract type, service tier, and payment method.</li>
+                <li><strong>K-Means Segmentation:</strong> 4 customer personas, each with its own churn trajectory and recommended intervention strategy.</li>
+                <li><strong>3-Model Comparison:</strong> Logistic Regression vs Random Forest vs Gradient Boosting — evaluated on recall, not accuracy.</li>
+                <li><strong>Revenue Quantification:</strong> Predictions converted into ₹ across 3 retention scenarios with full ROI modelling.</li>
+                <li><strong>Kaplan-Meier Survival Analysis:</strong> Implemented from first principles with log-rank significance testing by contract type.</li>
+                <li><strong>Power BI Executive Dashboard:</strong> Framed for a business audience, not a data team.</li>
+            </ul>
+            <p><strong>Key results:</strong></p>
+            <ul>
+                <li>26.5% baseline churn rate — ₹4.25 lakh/month in simulated revenue at risk.</li>
+                <li>85.2% recall on the churned class — Gradient Boosting at optimised threshold 0.38.</li>
+                <li>Month 10 identified as the pre-emptive intervention window via survival analysis.</li>
+                <li>₹8.69 lakh/year recoverable under the moderate retention scenario (~520% ROI).</li>
+                <li>Top 3 churn drivers: tenure, contract type, internet service tier.</li>
+            </ul>
+            <p class="modal-quote">Survival analysis showed customers exit in a concentrated window between Month 12 and 18 — a retention campaign at Month 18 is already too late. Month 10 turned this from a prediction model into an operational calendar.</p>
+            <p class="project-tools"><strong>Tech Stack:</strong> Python, Pandas, NumPy, Scikit-learn, Lifelines, SQL, Power BI, Matplotlib, Plotly</p>
+            <a href="https://lnkd.in/gkiqnJHB" target="_blank" class="btn btn-primary modal-link"><i class="fab fa-github"></i> View Code, Notebooks &amp; Dashboard</a>
+        </div>
+    </div>
+
+    <div id="modal-swiggy" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal-swiggy')">&times;</span>
+            <h2>Swiggy Hyperlocal Success Predictor</h2>
+            <p class="modal-meta">8,000+ Restaurants Analysed</p>
+            <p>Most restaurant owners believe "lower prices = more orders." This analysis proves the opposite: the food delivery market is quality-elastic but price-inelastic — a 1-star rating increase is 36x more impactful for success than a ₹100 price cut.</p>
+            <p><strong>What's inside:</strong></p>
+            <ul>
+                <li><strong>AI Segmentation:</strong> TF-IDF and K-Means clustering identified 5 distinct "Business Personas," from Heritage Staples to the Sweet Tooth Niche.</li>
+                <li><strong>Predictive Modeling:</strong> A regression framework (R² = 0.40) quantifying the drivers of restaurant success.</li>
+                <li><strong>Gap Analysis:</strong> Identified high-demand, low-quality localities — a "gold mine" for high-quality new entrants (e.g. Chembur, Pitam Pura).</li>
+                <li><strong>Weather Intelligence:</strong> Quantified the "Rain Lift" effect — a significant surge in comfort food demand during monsoons.</li>
+            </ul>
+            <p class="modal-quote">This isn't just a coding exercise — it's a site-selection tool and a strategic playbook for ROI, built entirely on Geospatial AI.</p>
+            <p class="project-tools"><strong>Tech Stack:</strong> Python, Pandas, Scikit-learn, TF-IDF, K-Means, Regression, Plotly, Power BI, Geospatial Analytics</p>
+            <a href="https://lnkd.in/gnncikyH" target="_blank" class="btn btn-primary modal-link"><i class="fab fa-github"></i> View Repository, Report &amp; Slide Deck</a>
+        </div>
+    </div>
+
+    <!-- Existing Project Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal1')">&times;</span>
+            <h2>Email Content Extraction</h2>
+            <p><strong>Aim:</strong> Automate the summarization and extraction of key insights from unstructured email datasets to enhance processing efficiency.</p>
+            <p><strong>Methodology:</strong> Leveraged transformer models such as T5, BART, and LongT5 for supervised learning and fine-tuned them using Python and TensorFlow. Built an unsupervised learning model for handling unlabeled email datasets. Employed Tableau to present outcomes effectively.</p>
+            <p><strong>Outcomes:</strong> Improved data processing efficiency by 35% and reduced computational resource requirements by 40%. Achieved ROUGE scores of up to 46.3.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal2')">&times;</span>
+            <h2>Crime Hotspot Prediction</h2>
+            <p><strong>Aim:</strong> Predict crime hotspots using geospatial data, enabling better allocation of resources and crime prevention strategies.</p>
+            <p><strong>Methodology:</strong> Utilized geospatial data and machine learning algorithms like XGBoost for hotspot prediction. Processed data using PostGIS for spatial analysis and visualized insights through Tableau dashboards.</p>
+            <p><strong>Outcomes:</strong> Enhanced prediction accuracy by 20%, leading to improved resource allocation and stakeholder-ready visualizations of high-risk areas.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal3')">&times;</span>
+            <h2>British Airways Customer Insights</h2>
+            <p><strong>Aim:</strong> Derive actionable insights from customer reviews to improve service quality and customer retention.</p>
+            <p><strong>Methodology:</strong> Scraped and analyzed over 1,000 customer reviews using Python for sentiment analysis. Developed predictive models to assess customer behavior and used Power BI for interactive dashboards.</p>
+            <p><strong>Outcomes:</strong> Improved customer retention by 15% and streamlined decision-making through comprehensive data visualization.</p>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal4')">&times;</span>
+            <h2>Facial Emotion Recognition</h2>
+            <p><strong>Aim:</strong> Design a deep learning model capable of classifying emotions from facial images for mental health and user behavior applications.</p>
+            <p><strong>Methodology:</strong> Built a hybrid CNN-LSTM model using Python, TensorFlow, and Keras to extract temporal and spatial features. Enhanced the dataset with OpenCV for pre-processing and augmentation.</p>
+            <p><strong>Outcomes:</strong> Achieved 85% accuracy, surpassing benchmarks in facial emotion classification.</p>
+        </div>
+    </div>
+
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal5')">&times;</span>
+            <h2>Breast Cancer Detection</h2>
+            <p><strong>Aim:</strong> Develop an image classification model for early detection of breast cancer from histopathological images.</p>
+            <p><strong>Methodology:</strong> Utilized CNNs implemented in TensorFlow and Keras. Employed data augmentation to improve generalization, preprocessed with OpenCV and NumPy.</p>
+            <p><strong>Outcomes:</strong> Achieved 92% accuracy, reducing false negatives by 18%.</p>
+        </div>
+    </div>
+
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal6')">&times;</span>
+            <h2>Financial Report Chatbot</h2>
+            <p><strong>Aim:</strong> Develop an AI chatbot capable of extracting and summarizing key insights from financial reports.</p>
+            <p><strong>Methodology:</strong> Built a chatbot using Python and Flask, integrating GPT models for natural language understanding. Extracted data from 10-K and 10-Q reports using NLTK for parsing.</p>
+            <p><strong>Outcomes:</strong> Reduced search time for critical financial metrics by 50%.</p>
+        </div>
+    </div>
+
+    <div id="modal7" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal7')">&times;</span>
+            <h2>IBM HR Data Analytics</h2>
+            <p><strong>Aim:</strong> Analyze workforce data to predict employee attrition and optimize HR operations.</p>
+            <p><strong>Methodology:</strong> Performed cost-benefit analysis using IBM HR Analytics data, built Power BI dashboards to visualize attrition risk drivers.</p>
+            <p><strong>Outcomes:</strong> Improved reporting efficiency and gave HR stakeholders a clear view of attrition risk factors.</p>
+        </div>
+    </div>
+
+    <div id="modal8" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal8')">&times;</span>
+            <h2>Census Data Analysis</h2>
+            <p><strong>Aim:</strong> Analyze census data to derive actionable insights for urban development and budget allocation.</p>
+            <p><strong>Methodology:</strong> Cleaned and explored census datasets using Pandas, visualized demographic trends with Matplotlib and Seaborn.</p>
+            <p><strong>Outcomes:</strong> Delivered insights that informed urban development and budget prioritisation discussions.</p>
+        </div>
+    </div>
+
+    <div id="modal9" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal9')">&times;</span>
+            <h2>Accident Data Analysis</h2>
+            <p><strong>Aim:</strong> Reduce accident severity and optimize resource allocation through predictive modeling.</p>
+            <p><strong>Methodology:</strong> Performed clustering analysis (K-Means) and predictive modeling using Scikit-Learn, visualized outcomes in Tableau.</p>
+            <p><strong>Outcomes:</strong> Identified key severity drivers and recommended resource allocation strategies.</p>
+        </div>
+    </div>
+
+    <div id="modal10" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal10')">&times;</span>
+            <h2>Atmospheric Turbulence Models for Safer Aircraft Navigation</h2>
+            <p><strong>Aim:</strong> Enhance aircraft navigation safety through analysis of atmospheric turbulence prediction models.</p>
+            <p><strong>Methodology:</strong> Conducted an in-depth literature review, analyzing predictive models using Python and statistical analysis.</p>
+            <p><strong>Outcomes:</strong> Synthesised findings into recommendations for turbulence-aware navigation safety improvements.</p>
+        </div>
+    </div>
+
+    <div id="modal11" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal11')">&times;</span>
+            <h2>Real-Time Hate Speech Detection on Twitter</h2>
+            <p><strong>Aim:</strong> Develop a real-time hate speech classification model using machine learning and Apache Flink.</p>
+            <p><strong>Methodology:</strong> Implemented a Twitter API-based data pipeline, analyzed existing hate speech detection models, and integrated a machine learning classifier running on Apache Flink.</p>
+            <p><strong>Outcomes:</strong> Successfully detected and classified hate speech tweets in real-time, enhancing automated content moderation.</p>
+        </div>
+    </div>
+
+    <!-- Skills Modals -->
+    <div id="modal-programming" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal-programming')">&times;</span>
+            <h2>Programming and Tools</h2>
+            <div class="tag-list">
+                <span>Python</span><span>R</span><span>SQL</span><span>PySpark</span><span>TensorFlow</span>
+                <span>PyTorch</span><span>Keras</span><span>Scikit-Learn</span><span>XGBoost</span><span>LightGBM</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-analytics" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal-analytics')">&times;</span>
+            <h2>Data Analytics and Visualization</h2>
+            <div class="tag-list">
+                <span>Power BI</span><span>Tableau</span><span>Excel (Advanced)</span><span>Matplotlib</span><span>Seaborn</span><span>Plotly</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-ml" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal-ml')">&times;</span>
+            <h2>Machine Learning and AI</h2>
+            <div class="tag-list">
+                <span>Supervised &amp; Unsupervised Learning</span><span>NLP</span><span>Transformers (BERT, GPT, T5)</span><span>Deep Learning (CNN, RNN, LSTM)</span><span>Predictive Analytics</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-engineering" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal-engineering')">&times;</span>
+            <h2>Data Engineering</h2>
+            <div class="tag-list">
+                <span>ETL Processes</span><span>Data Quality Management</span><span>Data Pipelines</span><span>Data Warehousing</span><span>APIs</span><span>NoSQL Databases</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-cloud" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal-cloud')">&times;</span>
+            <h2>Cloud Platforms</h2>
+            <div class="tag-list">
+                <span>Google Cloud Platform (BigQuery)</span><span>Microsoft Azure</span><span>AWS (S3, EC2)</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-softskills" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('modal-softskills')">&times;</span>
+            <h2>Soft Skills</h2>
+            <div class="tag-list">
+                <span>Stakeholder Collaboration</span><span>Documentation</span><span>Teamwork</span><span>Leadership</span><span>Process Improvement</span><span>Problem-Solving</span><span>Adaptability</span><span>Resilience</span><span>Attention to Detail</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certification Modals -->
+    <div id="cert1-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('cert1-modal')">&times;</span>
+            <h2>IBM Data Engineering Professional Certificate</h2>
+            <ul>
+                <li>Completed comprehensive training on data engineering processes, including ETL, data wrangling, and pipeline development.</li>
+                <li>Acquired proficiency in data handling using Python, SQL, and NoSQL databases.</li>
+                <li>Demonstrated expertise in data visualization using Tableau and Power BI.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="cert2-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('cert2-modal')">&times;</span>
+            <h2>Google Cloud Platform Big Data and Machine Learning</h2>
+            <ul>
+                <li>Explored advanced machine learning techniques and deployment using Google Cloud's BigQuery and AI tools.</li>
+                <li>Built scalable machine learning pipelines and big data solutions.</li>
+                <li>Specialized in data processing and analysis on Google Cloud Platform.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="cert3-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('cert3-modal')">&times;</span>
+            <h2>GDPR Compliance Training</h2>
+            <ul>
+                <li>Completed training on data privacy and GDPR regulations.</li>
+                <li>Implemented compliance measures in data analysis and storage workflows.</li>
+                <li>Ensured secure handling of sensitive data in all projects.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="cert4-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('cert4-modal')">&times;</span>
+            <h2>British Airways Data Science Simulation</h2>
+            <ul>
+                <li>Analyzed over 1,000 customer reviews to generate actionable insights and improve retention by 15%.</li>
+                <li>Developed Power BI dashboards for productivity tracking and sentiment analysis.</li>
+                <li>Applied advanced data visualization techniques to present findings effectively.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="cert5-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('cert5-modal')">&times;</span>
+            <h2>Accenture Data Analytics and Visualization Simulation</h2>
+            <ul>
+                <li>Cleaned and analyzed seven datasets to uncover trends and improve strategic decision-making.</li>
+                <li>Built Power BI dashboards to visualize content trends and presented insights to stakeholders.</li>
+                <li>Demonstrated expertise in data storytelling and actionable insights generation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="cert6-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('cert6-modal')">&times;</span>
+            <h2>IELTS Academic Band 7</h2>
+            <ul>
+                <li>Achieved Band 7, showcasing strong proficiency in English reading, writing, speaking, and listening.</li>
+                <li>Applied effective communication skills in professional and academic environments.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
