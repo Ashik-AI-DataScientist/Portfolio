@@ -60,10 +60,10 @@
             <h2 class="section-title reveal">About Me</h2>
             <div class="about-grid">
                 <div class="about-text reveal">
-                    <p>I'm a Data Analyst with an MSc in Artificial Intelligence &amp; Data Science from the University of Hull (Distinction), backed by a First-Class degree in Physics. My work is focused on one thing: turning raw, messy data into numbers that leadership can act on — whether that's a churn dashboard, an inventory report, or a revenue forecast.</p>
-                    <p>Across roles in operations, freelance consulting, and applied research, I've used Python, SQL, and Power BI to build reporting pipelines, predictive models, and dashboards that replace guesswork with evidence. At Ye Olde No 3, that meant restructuring inventory and sales data to cut wastage by up to 20%. As a freelance analyst with Brand Nerd, it meant automating multi-channel reporting and building retention dashboards that lifted engagement by 20% in 90 days.</p>
+                    <p>I'm a Data Analyst with an MSc in Artificial Intelligence &amp; Data Science from the University of Hull (Distinction), with experience delivering end-to-end analytics solutions across enterprise software, marketing, and operational domains.</p>
+                    <p>I work across Python, SQL, Snowflake, Excel, and Power BI to build ETL pipelines, automate reporting, and develop interactive dashboards that generate actionable business insights. At RADD Solutions, that meant building SQL/Snowflake data models and Power BI dashboards for enterprise clients. As a freelance analyst with Brand Nerd, it meant automating multi-channel reporting and building retention dashboards that lifted engagement by 20% in 90 days.</p>
                     <p>On the technical side, I've fine-tuned transformer models (T5, BART) for NLP summarisation, achieving a ROUGE score of 46.3, and built predictive models spanning churn, geospatial demand, and customer segmentation — always translated back into a business-readable answer, not just a metric.</p>
-                    <p>I'm currently looking for a Data Analyst role where I can keep doing exactly that: taking ownership of a dataset end-to-end, from cleaning to dashboard to recommendation.</p>
+                    <p>I'm currently looking for a Data Analyst role where I can keep doing exactly that: taking ownership of a dataset end-to-end, from ETL to dashboard to recommendation.</p>
                 </div>
                 <div class="about-stats reveal">
                     <p class="about-stats-label">Data Analyst</p>
@@ -103,23 +103,23 @@
         <section id="experience" class="content-section">
             <h2 class="section-title reveal">Professional Experience</h2>
             <div class="timeline">
-                <div class="timeline-item reveal" onclick="openModal('pub-modal')">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">03/2025 – 03/2026</div>
-                    <div class="timeline-content">
-                        <h3>Operations Manager</h3>
-                        <p class="card-subtitle">Ye Olde No 3 · Manchester, UK</p>
-                        <p>Data-backed inventory, scheduling, and reporting across a 12-member hospitality team.</p>
-                        <span class="click-hint">Click for details <i class="fas fa-arrow-right"></i></span>
-                    </div>
-                </div>
                 <div class="timeline-item reveal" onclick="openModal('brandnerd-modal')">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">02/2025 – 03/2026</div>
+                    <div class="timeline-date">02/2026 – Present</div>
                     <div class="timeline-content">
                         <h3>Freelance Data Analyst (Project-Based)</h3>
                         <p class="card-subtitle">Brand Nerd · Remote, Kochi, Kerala</p>
                         <p>Social analytics, automation pipelines, and retention dashboards for a growth-stage client.</p>
+                        <span class="click-hint">Click for details <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" onclick="openModal('radd-da-modal')">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">03/2025 – 03/2026</div>
+                    <div class="timeline-content">
+                        <h3>Data Analyst</h3>
+                        <p class="card-subtitle">RADD Solutions · Hull, UK</p>
+                        <p>SQL/Snowflake data modelling, Power BI dashboards, and ETL automation for enterprise reporting.</p>
                         <span class="click-hint">Click for details <i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -191,6 +191,16 @@
                     </div>
                 </div>
 
+                <div class="project-card reveal featured" onclick="openModal('modal-hr')" data-icon="fa-users">
+                    <div class="project-icon"><i class="fas fa-users"></i></div>
+                    <div class="project-body">
+                        <span class="project-tag">Featured</span>
+                        <h3>Cost-Benefit Analysis (HR Operations)</h3>
+                        <p>Power BI dashboards built on IBM HR Analytics data to visualise attrition risk drivers and quantify the cost of employee turnover, cutting report generation time by 30% for HR stakeholders.</p>
+                        <p class="project-tools"><strong>Tech Stack:</strong> Power BI, Python, SQL, Pandas, IBM HR Analytics Dataset</p>
+                    </div>
+                </div>
+
                 <div class="project-card reveal" onclick="openModal('modal1')" data-icon="fa-envelope-open-text">
                     <div class="project-icon"><i class="fas fa-envelope-open-text"></i></div>
                     <div class="project-body">
@@ -242,15 +252,6 @@
                         <h3>Financial Report Chatbot</h3>
                         <p>GPT-powered chatbot for querying 10-K/10-Q reports.</p>
                         <p class="project-tools"><strong>Tools:</strong> Python, NLTK, GPT, Flask</p>
-                    </div>
-                </div>
-
-                <div class="project-card reveal" onclick="openModal('modal7')" data-icon="fa-users">
-                    <div class="project-icon"><i class="fas fa-users"></i></div>
-                    <div class="project-body">
-                        <h3>IBM HR Data Analytics</h3>
-                        <p>Attrition risk visualisation and cost-benefit analysis.</p>
-                        <p class="project-tools"><strong>Tools:</strong> Power BI, Python, SQL, Pandas</p>
                     </div>
                 </div>
 
@@ -392,7 +393,7 @@
         <div class="modal-content">
             <span class="close-button" onclick="closeModal('brandnerd-modal')">&times;</span>
             <h2>Freelance Data Analyst (Project-Based) | Brand Nerd</h2>
-            <p class="modal-meta">02/2025 – 03/2026 | Remote, Kochi, Kerala</p>
+            <p class="modal-meta">02/2026 – Present | Remote, Kochi, Kerala</p>
             <ul>
                 <li><strong>Social Media Analytics:</strong> Analysed IG/TikTok/LinkedIn, identified content strategies boosting reach by 20% in 90 days.</li>
                 <li><strong>Automation:</strong> Built a Python/SQL pipeline to consolidate multi-channel data, reducing weekly reporting by 15 hours.</li>
@@ -403,16 +404,15 @@
         </div>
     </div>
 
-    <div id="pub-modal" class="modal">
+    <div id="radd-da-modal" class="modal">
         <div class="modal-content">
-            <span class="close-button" onclick="closeModal('pub-modal')">&times;</span>
-            <h2>Operations Manager | Ye Olde No 3</h2>
-            <p class="modal-meta">03/2025 – 03/2026 | Manchester, UK</p>
+            <span class="close-button" onclick="closeModal('radd-da-modal')">&times;</span>
+            <h2>Data Analyst | RADD Solutions</h2>
+            <p class="modal-meta">03/2025 – 03/2026 | Hull, UK</p>
             <ul>
-                <li>Managed operations across inventory, bookings, and a 12-member team in a high-volume hospitality industry.</li>
-                <li>Analysed sales and inventory data in Excel, reducing wastage by ~15–20% and improving stock planning accuracy.</li>
-                <li>Prepared data-backed reports and proposals supporting business expansion and investor discussions.</li>
-                <li>Maintained and structured operational data (rosters, bookings, revenue), improving scheduling and resource utilisation.</li>
+                <li><strong>Data Warehousing:</strong> Developed SQL and Snowflake data models supporting enterprise reporting and analytics for client software solutions.</li>
+                <li><strong>Business Intelligence:</strong> Built interactive Power BI dashboards to monitor operational KPIs, service performance, and metrics.</li>
+                <li><strong>ETL &amp; Automation:</strong> Designed Python and SQL ETL pipelines, improving data quality and reducing manual reporting effort.</li>
             </ul>
         </div>
     </div>
@@ -583,14 +583,21 @@
         </div>
     </div>
 
-    <div id="modal7" class="modal">
+    <div id="modal-hr" class="modal">
         <div class="modal-content">
-            <span class="close-button" onclick="closeModal('modal7')">&times;</span>
-            <h2>IBM HR Data Analytics</h2>
-            <p><strong>Aim:</strong> Analyze workforce data to predict employee attrition and optimize HR operations.</p>
-            <p><strong>Methodology:</strong> Performed cost-benefit analysis using IBM HR Analytics data, built Power BI dashboards to visualize attrition risk drivers.</p>
-            <p><strong>Outcomes:</strong> Improved reporting efficiency and gave HR stakeholders a clear view of attrition risk factors.</p>
+            <span class="close-button" onclick="closeModal('modal-hr')">&times;</span>
+            <h2>Cost-Benefit Analysis (HR Operations)</h2>
+            <p class="modal-meta">IBM HR Analytics Dataset</p>
+            <p>Designed Power BI dashboards using IBM HR Analytics data to visualise attrition risks and quantify the cost of employee turnover, giving HR stakeholders a clear, at-a-glance view of where retention effort pays off most.</p>
+            <p><strong>What's inside:</strong></p>
+            <ul>
+                <li><strong>Attrition Risk Visualisation:</strong> Power BI dashboard surfacing the workforce segments most likely to churn.</li>
+                <li><strong>Cost-Benefit Modelling:</strong> Quantified the financial cost of attrition against the cost of retention interventions.</li>
+                <li><strong>Reporting Automation:</strong> Reduced report generation time by 30%, freeing HR analysts for higher-value work.</li>
+            </ul>
+            <p class="project-tools"><strong>Tech Stack:</strong> Power BI, Python, SQL, Pandas, IBM HR Analytics Dataset</p>
         </div>
+    </div>
     </div>
 
     <div id="modal8" class="modal">
