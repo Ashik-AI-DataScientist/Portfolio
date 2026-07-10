@@ -5,15 +5,17 @@ ________________________________________
 Summary
 Distinction-grade MSc Artificial Intelligence graduate with a First-Class Physics background and a proven track record of optimising AI models by 40%. Combines deep technical expertise in NLP and Machine Learning with operational leadership experience managing P&L data and cross-functional teams. Expert in Python, SQL, and Tableau, with a focus on translating complex datasets into strategic business solutions. Seeking a Data Analyst/Scientist role.________________________________________
 Professional Experience
-Operations Analytics Manager | No3 Pubs UK Limited, Manchester, UK                                                        03/2025 – 03/2026
-•	Financial & Supply Chain Analytics: Optimised stock levels and reduced operational wastage by 20% through trend analysis of P&L statements and inventory datasets.
-•	Business Intelligence: Built a customer loyalty dashboard to track repeat engagement and drive growth strategies
-•	Operational Leadership: Directed a cross-functional team of 12 using performance mapping and data-driven KPIs.
-Freelance Data Analyst (Project-Based)| Brand Nerd (Remote), Kochi, Kerala, India                                   02/2025 – 03/2026
-•	Social Media Analytics: Analysed IG/TikTok/LinkedIn, identified content strategies boosting reach by 20% in 90 days.
+Freelance Data Analyst (Project-Based) | Brand Nerd (Remote), Kochi, Kerala                02/2026 – Present
+•	Social Media Analytics: Analysed Instagram and FB, identified content strategies boosting reach by 20% in 90 days.
 •	Automation: Built a Python/SQL pipeline to consolidate multi-channel data, reducing weekly reporting by 15 hours.
 •	Retention Strategy: Developed a loyalty dashboard to track engagement and identify at-risk users for client retention.
 •	A/B Testing: Executed promotional campaign tests to optimise pricing and promotions strategies, protecting client margins.
+•	Built Power BI dashboards to track engagement and performance metrics.
+Data Analyst | RADD Solutions, Hull, UK                                                                                              03/2025 – 03/2026
+•	Data Warehousing: Developed SQL and Snowflake data models supporting enterprise reporting and analytics for client software solutions. 
+•	Business Intelligence: Built interactive Power BI dashboards to monitor operational KPIs, service performance, and metrics. 
+•	ETL & Automation: Designed Python and SQL ETL pipelines, improving data quality and reducing manual reporting effort.
+
 Corporate Trainer | CFG, Manchester, UK						                    05/2024 – 03/2025
 •	Team Building: Recruited and trained a high-performing sales team over 6 months; developed a data-backed sales pitch that increased lead conversion rates for British Gas.
 •	KPI Management: Analysed team performance metrics to identify skill gaps, delivering targeted training that improved overall team efficiency.
